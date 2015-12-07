@@ -118,10 +118,6 @@ print match_list
 
 craft_output()
 
-d = open('compare', 'w')
-d.write(url_template + '\n' + url)
-d.close()
-
 if out is not None:
 	f = open('out_httpcheck', 'a')
 	f.write(out + '\n')

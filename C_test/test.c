@@ -1,19 +1,12 @@
 #include <stdio.h>
 
+int func(int i, int j);
+
 int main(){
 
-	int k = 0;
-	int m = 0;
-	int i = 0;
-	int j = 0;
+	int k = func(61440, 4096);
 
-	for(i = 0; i<61440; i++){
-		for(j = 0; j<4096; j++)
-			k++;
-		m++;
-	}
-
-	printf("m = %d\n", m);
+	printf("k = %d\n", k);
 
 	return 1;
 }
